@@ -1,0 +1,267 @@
+@media only screen and (max-width: 1024px)
+  .h1
+    font-size: 60px
+    line-height: 60px
+  .h2
+    font-size: 40px
+    line-height: 56px
+  .h3
+    font-size: 28px
+    line-height: 44px
+  .header_logo_phone
+    height: 100px
+    padding: 0 0 0 32px
+  .header_menu
+    margin-top: 0px
+    height: calc(100vh - 100px)
+    width: calc(100vw - 100px)
+    left: -100vw
+    background: #000
+    transition: all .5s ease-in-out
+    justify-content: space-between
+    padding: 43px 32px 35px
+    .header_ln_ph
+      display: flex
+      width: 100%
+      justify-content: space-between
+    &.is-active
+      left: 0
+  .header_wrapper_nav
+    ul
+      flex-direction: column
+      align-items: flex-start
+      padding-left: 0
+  .header_logo_phone
+    .header_ln_ph
+      display: none
+  .hamburger_wrap
+    display: flex
+    height: 100px
+    width: 100px
+  .first_section
+    .container
+      flex-direction: column-reverse
+      position: relative
+  .cashback_col
+    width: calc(50% - 6px)
+    margin-bottom: 56px
+    &.full
+      width: calc(50% - 6px)
+  .dior_img
+    margin-right: 0
+    position: relative
+    .arrow_link
+      position: absolute
+      top: -50px
+      margin-top: 0px
+    img
+      display: none
+  .dior_img_mobile
+    width: calc(50% - 6px)
+    display: flex
+    .arrow_link
+      display: none
+  .sub_maps
+    width: 336px
+    &:first-child
+      margin-right: 20px
+  .arrow_link
+    font-size: 18px
+    line-height: 29px
+  .maps_section
+    .h3
+      margin-bottom: 8px
+
+  .arrow_link
+    .arrow
+      &:before, &:after
+        width: 6px
+      &:before
+        top: 2px
+      &:after
+        top: -2px
+  .acc__container
+    .acc__elem
+      .plus
+        height: 32px
+        width: 32px
+        top: 5px
+        &:before, &:after
+          width: 8px
+          top: 13px
+          right: 9px
+  .schema_section
+    .container
+      flex-wrap: wrap
+      .flex_wrap
+        justify-content: space-around
+        .scheme_h2
+          margin-bottom: 56px
+        .scheme_col
+          width: calc(50% - 10px)
+          margin: 0px 0px 56px 0px
+  .scheme_img
+    width: 100%
+    img
+      width: 100%
+  .companion_section
+    .container
+      flex-direction: column-reverse
+      .companion_col
+        margin-bottom: 56px
+
+  .process_section
+    .container
+      .process
+        flex-wrap: wrap
+      .process
+        .process_col
+          width: calc(50% - 22px)
+          margin-bottom: 32px
+
+      .process div:nth-of-type(2)
+        order: 2
+  .questions_section
+    .padding
+      padding-top: 0px
+  .white-popup
+    padding: 60px 32px
+  .input_wrap
+    input
+      font-size: 18px
+      line-height: 28px
+
+@media only screen and (max-width: 540px)
+  body
+    font-size: 14px
+  .container
+    padding: 0 16px
+    &.padding
+      padding: 40px 16px
+  .h1
+    font-size: 40px
+    line-height: 40px
+  .h2
+    font-size: 26px
+    line-height: 36px
+  .h3
+    font-size: 20px
+    line-height: 28px
+  .header_logo_phone
+    height: 63px
+    padding: 0 0 0 16px
+  .header_logo
+    img
+      width: 214px
+  .header_menu
+    height: calc(100vh - 63px)
+    width: calc(100vw - 63px)
+    padding: 18px 16px
+    .header_ln_ph
+      flex-direction: column-reverse
+      align-items: flex-start
+    .header_lang
+      margin-left: 0
+      margin-bottom: 16px
+    ul li
+      font-size: 14px
+      margin-bottom: 16px
+  .hamburger_wrap
+    display: flex
+    height: 63px
+    width: 63px
+  .my_hamburger
+    width: 20px
+    height: 13px
+    .hamburger_block
+      .hamburger_center
+        top: 6.5px
+      .hamburger_bottom
+        top: 13px
+        width: 10px
+    .hamburger_top, .hamburger_bottom, .hamburger_center
+      width: 20px
+    &.is-active
+      .hamburger_block
+        .hamburger_bottom, .hamburger_top, .hamburger_center
+          top: 7px
+  .cashback_col
+    width: 100%
+    margin-bottom: 16px
+    &.full
+      width: 100%
+  .cashback_head
+    margin-bottom: 32px
+  .dior_img
+    display: none
+  .dior_img_mobile
+    width: 100%
+    .arrow_link
+      display: flex
+      margin: 16px 0 40px
+  .arrow_link
+    font-size: 14px
+    line-height: 22.5px
+  .sub_maps
+    width: 100%
+    &:first-child
+      margin-right: 0
+      margin-bottom: 38px
+  .sub_maps_wrap
+    flex-direction: column
+  .lady_section
+    height: 226px
+  .footer_section
+    height: 363px
+  .copyright
+    flex-direction: column
+    p
+      margin-bottom: 16px
+      width: 100%
+      text-align: center
+    .social
+      align-self: center
+  .companion_section
+    img
+      width: 100%
+  .acc__container
+    .title
+      padding-right: 40px
+  .process_section
+    .h3
+      margin: 8px 0
+    .container
+      .process
+        .process_col
+          width: 100%
+  .white-popup
+    .h3
+      margin-bottom: 16px
+  .input_wrap
+    margin-bottom: 20px
+    input
+      font-size: 14px
+      line-height: 22px
+  .checkbox
+    margin-bottom: 16px
+    label
+      font-size: 12px
+      line-height: 19px
+  .scheme_img
+    margin-top: 16px
+    margin-bottom: -24px
+  .schema_section
+    .container
+      .flex_wrap
+        .scheme_h2
+          margin-bottom: 32px
+        .scheme_col
+          width: 100%
+          margin-bottom: 16px
+  .process_section
+    .h2
+      margin-bottom: 32px
+    .container
+      .process
+        .process_col
+          margin-bottom: 16px

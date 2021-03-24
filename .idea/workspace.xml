@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df9468ce-363a-409d-bda4-d0187c357f4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pzNB2mF9bUJU4nkMmFhoaKEUi4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/src" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.splitter.proportion" value="0.24120083" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Work\BuselCapital\projPSS\app\images\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Work\BuselCapital\projPSS\app\styles\sass\blocks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df9468ce-363a-409d-bda4-d0187c357f4b" name="Default Changelist" comment="" />
+      <created>1616181835848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616181835848</updated>
+      <workItem from="1616181841239" duration="7520000" />
+      <workItem from="1616190973405" duration="16730000" />
+      <workItem from="1616246507738" duration="8283000" />
+      <workItem from="1616394878534" duration="54375000" />
+      <workItem from="1616481029792" duration="523000" />
+      <workItem from="1616481662119" duration="33964000" />
+      <workItem from="1616524369508" duration="9303000" />
+      <workItem from="1616570115454" duration="36798000" />
+      <workItem from="1616615108692" duration="297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="601" y="304" width="739" height="430" key="#Sass" timestamp="1616186444620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="601" y="304" width="739" height="430" key="#Sass/0.0.1536.824@0.0.1536.824" timestamp="1616186444620" />
+    <state x="478" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616355812561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1616355812561" />
+    <state x="555" y="78" key="SettingsEditor" timestamp="1616227603180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="78" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616227603180" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1616607787901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616607787901" />
+  </component>
+</project>

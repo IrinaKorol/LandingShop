@@ -1,0 +1,572 @@
+@import config
+//@import "blocks/**/*"
+//@import '/blocks/*'
+
+.noScroll
+  height: 100vh
+  width: 100vw
+  overflow: hidden
+
+.h1
+  font-family: 'montserrat'
+  font-size: 100px
+  margin-bottom: 56px
+  color: #ffffff
+  line-height: 101px
+
+.h2
+  font-family: 'montserrat'
+  font-weight: 700
+  font-style: normal
+  font-size: 50px
+  line-height: 70px
+  color: #000
+
+.h3
+  font-family: "Gilroy"
+  font-weight: 700
+  font-style: normal
+  font-size: 28px
+  line-height: 44.8px
+  color: #000
+
+.flex
+  display: flex
+
+.flex_wrap
+  display: flex
+  flex-wrap: wrap
+
+.flex_column
+  display: flex
+  flex-direction: column
+
+
+.flex_center
+  display: flex
+  align-items: center
+  justify-content: center
+
+.flex_between
+  justify-content: space-between
+
+.flex_around
+  justify-content: space-around
+
+.container
+  width: 100%
+  margin: 0 auto
+  max-width: 1364px /*1364*/
+  padding: 0 32px
+
+  &.padding
+    padding: 86px 32px
+
+.hamburger_wrap
+  display: none
+
+.header
+  color: #ffffff
+  position: relative
+
+  &_logo_phone
+    display: flex
+    background-color: black
+    width: 100%
+    height: 60px
+    padding: 0 56px
+
+  &_lang
+    margin-left: 56px
+
+  &_phone
+    img
+      margin-right: 8px
+
+  &_menu
+    width: 100%
+    position: absolute
+    top: calc(100% - 1px)
+    z-index: 1
+    margin-top: 32px
+
+    .header_ln_ph
+      display: none
+
+  &_wrapper_nav
+    ul li
+      margin-right: 32px
+      list-style: none
+      font-size: 18px
+      margin-bottom: 32px
+
+    a
+      color: #ffffff
+
+.head
+  p
+    margin-bottom: 56px
+/*Start Banner Section*/
+.banner_section
+  height: calc(100vh - 60px)
+
+
+  .container
+    padding-top: 60px
+    height: 100%
+    justify-content: center
+
+
+  p
+    color: #ffffff
+    margin-bottom: 56px
+    font-size: 26px
+.container
+  &.flex_column
+    &.privat_service
+      .h1
+        width: 100%
+        max-width: 862px
+.arrow_link
+  cursor: pointer
+  font-size: 24px
+  line-height: 38.4px
+  font-weight: 500
+  font-family: "Gilroy"
+  color: #000
+  position: relative
+  align-self: flex-start
+
+  &.white
+    color: #FFF
+
+    .arrow
+      background: #fff
+
+      &:before, &:after
+        background: #FFFFFF
+
+  .arrow
+    position: absolute
+    width: calc(100% + 30px)
+    height: 2px
+    background: #000
+    top: calc(100% + 3px)
+    left: 0
+    transition: all .5s ease-in-out
+
+    &:before, &:after
+      content: ''
+      width: 10px
+      height: 2px
+      background: #000
+      position: absolute
+      right: 0px
+
+    &:before
+      transform: rotate(-45deg)
+      top: 4px
+
+    &:after
+      transform: rotate(45deg)
+      top: -4px
+
+  &:hover
+    color: #000
+
+    &.white
+      color: #fff
+
+    .arrow
+      width: calc(100% + 60px)
+/*End Banner Section*/
+/*Start First Section*/
+.dior_img
+  margin-right: 145.5px
+  width: 100%
+  max-width: 411px
+  .arrow_link
+    margin-top: 137px
+
+.cashback_head
+  margin-bottom: 56px
+
+.cashback_col
+  width: calc(50% - 14px)
+  margin-bottom: 48px
+  .h3
+    margin-bottom: 8px
+  p
+    width: 85%
+    font-size: 18px
+    line-height: 28.8px
+    font-weight: 500
+    font-family: "Gilroy"
+  &.full
+    width: 100%
+    p
+      width: 100%
+.dior_img_mobile
+  display: none
+
+.cashback
+  justify-content: space-between
+/*End First Section*/
+/*Start Maps Section*/
+.maps_section
+  .h2
+    width: 100%
+    max-width: 750px
+    margin-bottom: 24px
+  .h3
+    margin-bottom: 83px
+.maps
+  &.container
+    padding: 0px
+  img
+    width: 100%
+    margin-bottom: 80px
+.sub_maps_wrap
+  justify-content: space-around
+.sub_maps
+  width: 416px
+.sub_maps
+  p
+    margin-bottom: 16px
+/*End Maps Section*/
+
+/*Start Brand Section*/
+.brand_section
+  display: none
+  .container
+    &.padding
+      padding: 94px 32px 57px
+.h2_brand
+  width: 100%
+  max-width: 742px
+  margin: 0 auto 42px
+.brand_section
+  .arrow_link
+    align-self: center
+
+#marquee
+  width: 100%
+  background-color: transparent
+  .str_move
+    padding: 50px 0
+  img
+    padding: 0px 44px
+
+/*End Brand Section*/
+
+/*Start Schema Section*/
+.schema_section
+  .scheme_h2
+    width: 100%
+    max-width: 743px
+
+  .scheme_col
+    width: 34%
+    margin-right: 138px
+    .h3
+      margin-bottom: 8px
+    .scheme_img
+     // width: 100%
+     // max-width: 743px
+    //margin-bottom: 56px /*79*/
+
+/*End Schema Section*/
+
+/*Start Process Section*/
+.process_section
+  .h2
+    margin-bottom:  56px
+  .h3
+    margin: 8px auto
+  .process_col
+    width: 23%
+/*End Process Section*/
+
+/*Start Lady Section*/
+.bg
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+.lady_section
+  height: 541px
+  width: 100%
+  margin-top: -30px
+/*End Lady Section*/
+
+/*Start Companion Section*/
+.companion_section
+  //display: none
+  .h3
+    margin-top: 32px
+  img
+    margin-right: 30px
+  p
+    margin-top: 32px
+/*End Companion Section*/
+
+/*Start questions Section*/
+.questions_section
+  .h2
+    margin-bottom: 62px
+
+/*End questions Section*/
+
+/*Start footer Section*/
+.footer_section
+  height: 844px
+  position: relative
+  .grad
+    position: absolute
+    width: 100%
+    height: 100%
+    background: linear-gradient(89.32deg, rgba(0, 0, 0, 0.79) 17.67%, rgba(0, 0, 0, 0.25) 69.64%)
+  .container
+    position: relative
+    z-index: 2
+    height: 100%
+    justify-content: center
+  .h2
+    color: #fff
+    width: 100%
+    max-width: 629px
+    margin-bottom: 32px
+  p
+    color: #fff
+
+/*End footer Section*/
+
+
+/*Start FOOTER*/
+.footer
+  background-color: #000
+  .copyright
+    color: #FFFFFF
+    font-size: 16px
+    line-height: 25.6px
+  .social
+    width: 100%
+    max-width: 87px
+
+      width: 100%
+  .copyright
+    width: 100%
+    margin: 0 auto
+    max-width: 1820px /*1364*/
+    padding: 17px 32px
+/*End FOOTER*/
+
+/*Modalka*/
+.mfp-close
+  display: none!important
+.white-popup
+  max-width: 749px
+  width: 100%
+  border: 1px solid black
+  margin: 20px auto
+  background-color: #FFFFFF
+  position: relative
+  padding: 70px 70px 50px
+  .x
+    cursor: pointer
+    position: absolute
+    top: 22px
+    right: 22px
+    width: 20px
+    transition: transform .3s linear
+    &:hover
+      transform: rotate(180deg)
+  .h2
+    margin-bottom: 16px
+  .h3
+    margin-bottom: 56px
+.input_wrap
+  margin-bottom: 32px
+  width: 100%
+  input
+    border: none
+    width: 100%
+    border-bottom: 1.5px solid $gray
+    font-size: 24px
+    font-weight: 500
+    line-height: 38px
+    &:focus
+      border-bottom: 1.5px solid #000
+  &.is-text
+    input
+      color: #000
+      border-color: #000
+  &.is-error
+    input
+      border-color: $red
+      color: red
+      &::placeholder
+        color: $red
+    .error
+      display: inline
+  .error
+    display: none
+    color: $red
+    font-size: 14px
+    line-height: 22.4px
+.is-disabled
+  pointer-events: none
+  opacity: 0.3
+
+.checkbox
+  margin-bottom: 56px
+  label
+    margin-bottom: 0
+    position: relative
+    display: inline-block
+    padding-left: 48px
+    font-size: 18px
+    cursor: pointer
+    &::before, &::after
+      position: absolute
+      content: ""
+      display: inline-block
+    &::before
+      height: 20px
+      width: 20px
+      border: 2px solid
+      left: 0px
+      top: 6px
+    &::after
+      height: 8px
+      width: 12px
+      border-left: 2px solid
+      border-bottom: 2px solid
+      transform: rotate(-45deg)
+      left: 4px
+      top: 10px
+  input[type="checkbox"]
+    display: none
+    opacity: 0
+    & + label::after
+      content: none
+    &:checked + label::after
+      content: ""
+
+
+/*End Modalki*/
+
+.my_hamburger
+  cursor: pointer
+  display: block
+  width: 30px
+  height: 20px
+
+  .hamburger_block
+    position: relative
+    height: 100%
+
+    .hamburger_top
+      top: 0px
+
+    .hamburger_center
+      top: 10px
+
+    .hamburger_bottom
+      top: 20px
+      width: 15px
+      right: 0
+
+  .hamburger_top, .hamburger_bottom, .hamburger_center
+    position: absolute
+    transition: top .3s cubic-bezier(0.04, 0.04, 0.12, 1) .2999s, transform .1s cubic-bezier(0.04, 0.04, 0.12, 1)
+    width: 30px
+    height: 2px
+    background-color: #FFF
+    border-radius: 2px
+
+  &.is-active
+    .hamburger_block
+      .hamburger_top, .hamburger_bottom, .hamburger_center
+        transition: top .3s cubic-bezier(0.04, 0.04, 0.12, 1), transform .1s cubic-bezier(0.04, 0.04, 0.12, 1) .29999s
+
+      .hamburger_bottom
+        top: 11px
+        width: 0
+
+      .hamburger_top
+        top: 11px
+        transform: rotate(45deg)
+
+      .hamburger_center
+        top: 11px
+        transform: rotate(-45deg)
+
+.acc__container
+  width: 100%
+  .title
+    cursor: pointer
+  .acc__hidden
+    height: 0
+    overflow: hidden
+  .acc__elem
+    width: 100%
+    cursor: pointer
+    position: relative
+    height: auto
+    padding-bottom: 10px
+    transition: all 0.3s linear
+    .plus
+      position: absolute
+      height: 56px
+      width: 56px
+      right: 0px
+      top: -10px
+      border: 3px solid #000
+      border-radius: 100%
+      &:before, &:after
+        content: ''
+        position: absolute
+        background-color: #000
+        width: 16px
+        height: 3px
+        top: 25px
+        right: 16px
+        transition: transform ease-in-out .3s
+      &:after
+        transform: rotate(90deg)
+    .acc__hidden
+      width: 90%
+      display: flex
+      transition: all 0.3s ease-in-out
+      height: 0
+      overflow: hidden
+      transition: height 0.8s
+      margin-top: 22px
+    &.animate
+      padding-bottom: 32px
+      .plus
+        &:after
+          transform: rotate(0deg)
+      .acc__hidden
+        height: auto
+
+
+
+@import media
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
